@@ -81,7 +81,7 @@ __EOS__;
 		 *
 		 * @return string The resulting page's hook_suffix
 		 */
-		add_menu_page( 'oEmbed TwitCasting設定', 'oEmbed Twicasting', 'manage_options', $this->menu_slug, array( $this, 'admin_page' ) );
+		add_menu_page( 'oEmbed TwitCasting設定', 'oEmbed TwitCasting設定', 'manage_options', $this->menu_slug, array( $this, 'admin_page' ) );
 	}
 	
 	public function admin_init()
