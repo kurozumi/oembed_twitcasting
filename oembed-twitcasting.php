@@ -81,7 +81,7 @@ __EOS__;
 		 *
 		 * @return string The resulting page's hook_suffix
 		 */
-		add_menu_page( 'oEmbed Twicasting', 'oEmbed Twicasting', 'manage_options', $this->menu_slug, array( $this, 'admin_page' ) );
+		add_menu_page( 'oEmbed TwitCasting設定', 'oEmbed Twicasting', 'manage_options', $this->menu_slug, array( $this, 'admin_page' ) );
 	}
 	
 	public function admin_init()
@@ -120,10 +120,12 @@ __EOS__;
 	
 	public function admin_page()
 	{
+		global $title;
+		
 		$this->options = get_option($this->option_name);
 		?>
 <div class="wrap">
-	<h2>oEmbed TwitCasting設定</h2>
+	<h2><?php echo esc_html($title);?></h2>
 	<?php
 	global $parent_file;
 	if($parent_file != 'options-general.php')
