@@ -5,5 +5,5 @@ if (!defined('WP_UNINSTALL_PLUGIN')) {
     exit;
 }
 
-delete_option('test_setting');
+delete_option('oembed_twitcasting');
 
