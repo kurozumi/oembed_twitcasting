@@ -2,7 +2,7 @@
 /*
 Plugin Name: oEmbed TwitCasting
 Version: 0.1-alpha
-Description: PLUGIN DESCRIPTION HERE
+Description: Embed source from twitcasting.
 Author: kurozumi
 Author URI: http://a-zumi.net
 Plugin URI: http://a-zumi.net
